@@ -9,3 +9,22 @@
 #masodik{
     color: blue;
 }
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+
+}
+
+figure{
+    border: blue thick double;
+    text-align: center;
+}
+
+figcaption{
+    background-color: lightblue;
+    color: darkblue;
+}
