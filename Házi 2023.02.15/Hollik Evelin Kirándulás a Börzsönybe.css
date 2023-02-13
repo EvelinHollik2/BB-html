@@ -1,0 +1,32 @@
+body{
+    background-color: #ddffdd;
+    color:#002200; 
+    font-size:larger;
+}
+h1{
+    text-align: center;		
+}
+p{
+    line-height: 20%;
+    margin-left: 100px;    
+}
+li{
+    font-weight: bold;
+}
+#jobbra{
+   float: right;
+  text-align: center;   
+}
+#jobbra img{
+    width: 125px;
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#terkep{
+    text-align: center;
+}
+div#kozep{
+  margin: 0 auto 0 auto;
+   width: 800px;
+}

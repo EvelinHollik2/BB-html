@@ -1,0 +1,36 @@
+div#kozep{
+    margin: 0 auto 0 auto;
+     width: 800px;
+  }
+  sup{
+      text-indent:20px
+  }
+  table{
+      border: 1px solid grey ;
+  }
+  footer{
+      border-bottom: 2px solid darkgray;
+  }
+  h3{
+      text-align: right;
+  }
+  #jobbra img{
+      width: 125px;
+      display: block;
+      padding: 5px;
+      margin-bottom: 10px;
+  }
+  #jobbra{
+      float: right;
+      text-align: center;   
+  }
+  #balra img{
+      width: 125px;
+      display: block;
+      padding: 5px;
+      margin-bottom: 10px;
+  }
+  #balra{
+     float: left;
+    text-align: center;   
+  }

@@ -1,0 +1,32 @@
+body{
+    font-size:larger;
+    background-color: #EEFF66;
+    color: #000066;
+    font-style: Monotype Corsiva;
+}
+#jobbra img{
+    width: 125px;
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#jobbra{
+   float: right;
+  text-align: center;   
+}
+li, h{
+    text-indent:20px
+}
+n{
+    text-decoration: line-through;
+}
+div#kozep{
+  margin: 0 auto 0 auto;
+   width: 800px;
+}
+pe, h1{
+    text-align: center;
+}
+footer{
+    border-bottom: 2px solid red;
+}
