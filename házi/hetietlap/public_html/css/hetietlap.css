@@ -1,0 +1,89 @@
+*{
+    background-color: #EEFF66;
+    font-family: 'Monotype Corsiva';
+    color: #000066;
+}
+
+
+
+body{
+    width: 60vw;
+    margin: 0px auto ;
+}
+
+header, footer{
+    text-align: center;
+
+}
+
+hr.vekony{
+    height: 0px;
+}
+
+hr{
+    color:red;
+    height: 3px;
+    background-color: red;
+}
+
+
+header div *{
+    display: inline-block;
+    width: 33%;
+}
+
+.bal{
+    text-align: left;
+}
+
+.jobb{
+    text-align: right;
+}
+
+
+
+footer div table{
+    margin: 0 auto;
+}
+
+
+img{
+    width: 20%;
+    margin-top: 20px ;
+}
+
+main div{
+    padding-left: 5%;
+}
+
+.nap{
+    border-top:  red solid 5px;
+}
+
+img.etelkep{
+    float: right;
+}
+table{
+    font-size:  larger;
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: bold;
+    margin: 5px auto;
+}
+
+td{
+    font-family: 'Courier';
+}
+
+#athuzott{
+    text-decoration:  #000066  solid  line-through;
+}
+
+.megjegyzes{
+    font-size:small;
+}
+
+.w50{
+    width: 50%;
+    display: inline-block;
+}

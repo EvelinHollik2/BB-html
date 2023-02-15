@@ -1,0 +1,35 @@
+.mezo{
+    padding: 5px 0;
+}
+
+form *{
+    margin: 5px 0;
+}
+
+legend{
+    background-color: aqua;
+    border: blue solid thin;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+fieldset{
+    background-color: beige;
+    border-radius: 20px 0;
+}
+
+input{
+    box-shadow: lightgray 3px 2px 3px;
+}
+
+input:valid{
+    background-color: lightgreen;
+}
+
+input:invalid{
+    background-color: lightpink;
+}
+
+input:hover{
+    border: red double 1px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formak.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formok - Űrlapok</h1>
+
+    <form name="elso" action="" method="HOST">
+        <fieldset>
+            <legend>Az első Űrlapom ♥ </legend>
+            <div class="mezo">
+                <label for="nev">Név:</label>
+                <input id="nev" type="text" name="name" value="" required/>
+            </div>
+            <div class="mezo">
+                <label for="pass">Jelszó:</label>
+                <input id="pass" type="password" name="pass" value=""/>
+            </div>
+
+            <p>
+                <input id="Férfi" type="checkbox" name="ferfi" value="ON"/>
+                <label for="Férfi">Férfi</label>
+            </p>
+            <p>
+                <input id="Nő" type="checkbox" name="no" value="ON" checked=""/>
+                <label for="Nő">Nő</label>
+            </p>
+
+
+            <input type="radio" name="r1g" id="v1" value="ferfi"/>
+            <label for="v1">Férfi</label>
+            <input type="radio" name="r1g" id="v2" value="no"/>
+            <label for="v2">Nő</label>
+            <input type="radio" name="r1g" id="v2" value="nemtudom" />
+            <label for="v3">Nem tudja eldönteni</label>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="file" id="file">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </div>
+
+        <div>
+            <input type="color">
+        </div>
+
+        <div>
+            <input type="date">
+        </div>
+
+            <input type="submit" value="Adatok küldése"/>
+            <input type="reset" value="Bevit adatok törlése"/>
+
+        </fieldset>
+        
+
+    </form>
+
+</body>
+</html>
