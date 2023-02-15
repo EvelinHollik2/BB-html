@@ -1,3 +1,6 @@
+body{
+    background-color: darkgrey;
+}
 div#kozep{
     margin: 0 auto 0 auto;
      width: 800px;
@@ -6,10 +9,10 @@ div#kozep{
       text-indent:20px
   }
   table{
-      border: 1px solid grey ;
+      border: 1px solid gray ;
   }
   footer{
-      border-bottom: 2px solid darkgray;
+      border-bottom: 2px solid gray;
   }
   h3{
       text-align: right;
