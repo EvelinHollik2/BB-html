@@ -1,0 +1,56 @@
+.card{
+    width: 80px;
+    min-height: 300px;
+    max-height: 300px;
+    border: blue solid thin;
+    border-radius:5px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px auto;
+    background-color: yellow;
+    overflow: auto;
+}
+
+
+img{
+    width: 40%;
+    height: 40%;
+}
+
+
+@media screen and (min-width: 600px){
+    img{
+        width: 30%;
+        border: blue solid thin;
+        border-radius: 5px;
+        text-align: center;
+        margin: 15px;
+        display: inline-block;
+        background-color: yellow;
+
+    }
+}
+@media screen and (min-width: 992px){
+    img{
+        width: 30%;
+        border: blue solid thin;
+        border-radius: 5px;
+        text-align: center;
+        margin: 10px;
+        display: inline-block;
+        background-color: yellow;
+
+    }
+}
+@media screen and (min-width: 992px){
+    img{
+        width: 30%;
+        border: blue solid thin;
+        border-radius: 5px;
+        text-align: center;
+        margin: 5px;
+        display: inline-block;
+        background-color: yellow;
+
+    }
+}

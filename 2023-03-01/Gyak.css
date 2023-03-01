@@ -1,0 +1,24 @@
+*{
+    font-size: 0;
+}
+
+p{
+    background-color:tomato;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    /*margin-left: -4px;*/
+    font-size: 10px;
+}
+a{
+    background-color: gold;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    /*margin-left: -4px; */
+    font-size: inherit;
+}
+
+div{
+    font-size: 15px;
+}
