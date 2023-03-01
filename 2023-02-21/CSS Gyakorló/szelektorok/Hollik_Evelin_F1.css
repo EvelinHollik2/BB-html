@@ -1,0 +1,72 @@
+h1{
+    color: #F60;
+    font-variant: small-caps;
+}
+h2{
+    color:#933; 
+    font-variant: small-caps;
+    text-indent: 20px;
+}
+p{
+    text-indent: 20px;
+}
+ul{
+    color: darkblue;
+}
+.f{
+    color: black;
+}
+#r{
+    color: red;
+}
+body>h1{
+    text-shadow: 3px 2px 1px darkgray;
+}
+h1+p{
+    text-indent: 0px;
+}
+ul~p{
+    background-color: yellow;
+}
+h1~p.szegely{
+    border: 4px double blue ;
+}
+h1.szegely{
+    border-top: blue dotted;
+}
+input:disabled{
+    background-color:darkgrey;
+}
+#post{
+    margin: 20px;
+    border: grey solid 1px;
+}
+#ipsum{
+    font-weight: bold;
+}
+#teszt1, #teszt2{
+    background-color: lightgreen;
+}
+#teszt2, #sz2{
+    border: red solid 1px;
+    font-style: italic;
+}
+#sz1, #sz2, #teszt1, #teszt2{
+    letter-spacing: 5px;
+}
+a:link{
+    font-weight: bold;
+    color: #00c;
+}
+a:visited{
+    color: #666;
+    font-weight: bold;
+}
+a:active{
+    color:#000;
+    font-weight: bold;
+}
+
+*:focus{
+    border: #0F0 dotted 2px;
+}

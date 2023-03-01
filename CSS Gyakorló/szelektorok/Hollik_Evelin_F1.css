@@ -1,0 +1,71 @@
+h1{
+    color: #F60;
+    font-variant:small-caps
+}
+h2{
+    color: #933;
+    font-variant: small-caps;
+    padding-left: 20px;
+}
+p::first-letter{
+    padding-left: 20px;
+}
+body>h1{
+    text-shadow: 2px 2px gray;
+}
+ul{
+    color:darkblue
+}
+ul:nth-child(1){
+    color: black;
+}
+h1+p::first-letter{
+    padding: 0px;
+}
+ul~p{
+    background-color: yellow;
+}
+h1.szegely{
+    border-top: blue 1px dotted;
+}
+p.szegely{
+    border: blue 4px double;
+}
+#red:nth-child(3){
+    color: red;
+}
+input[disabled]{
+    background-color: darkgray;
+}
+form[method="post"]{
+    border: gray 1px solid;
+    margin: 20px;
+}
+p[title~="ipsum"]{
+    font-weight: bold;
+}
+span[id^="teszt"]{
+    background-color: lightgreen;
+}
+span[id$="2"]{
+    border: red 1px solid;
+    font-style: italic;
+}
+span[id*="sz"]{
+    letter-spacing: 2px;
+}
+a:link{
+    color: #00C;
+    font-weight: bold;
+}
+a:visited{
+    color:#666;
+    font-weight: bold;
+}
+a:active{
+    color: #C00;
+    font-weight: bold;
+}
+a:focus{
+    border: #0F0 dotted 2px;
+}

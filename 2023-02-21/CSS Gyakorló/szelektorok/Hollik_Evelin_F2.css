@@ -1,0 +1,27 @@
+p > #teszt2{
+    background-color: yellow;
+}
+ul > li > ul{
+    background-color: yellow;
+}
+p > a:last-child{
+    background-color: yellow;
+}
+ul:first-of-type{
+    border: 2px dotted grey;
+}
+form > label:nth-child(1){
+    background-color: lightgreen;
+}
+ul > li:nth-child(even){
+    color:red;
+}
+ul > li:nth-last-of-type(2){
+    text-decoration:underline;
+}
+form > input:last-child{
+    border: blue 2px solid;
+}
+p:only-of-type{
+    background-color: lightblue;
+}

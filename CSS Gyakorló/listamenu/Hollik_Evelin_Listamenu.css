@@ -1,0 +1,9 @@
+div#menu li {
+    list-style-type:none;
+    display:inline;
+    border-right:1px dotted black;
+    padding: 5px 20px;
+}
+div#menu li:last-child {
+    border-right:none
+} 

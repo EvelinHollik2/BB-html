@@ -1,0 +1,16 @@
+body {
+  font-size:90%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+    
+div.doboz {
+  background-color:lightyellow;
+  border:1px solid green;	
+  padding:5px;
+  overflow:hidden;
+}
+
+img.balra {
+  float:left;
+  margin:5px 10px 5px 0;
+}

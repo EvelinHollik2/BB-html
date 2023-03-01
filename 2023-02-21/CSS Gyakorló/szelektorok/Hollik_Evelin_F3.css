@@ -1,0 +1,10 @@
+h1{
+    font-size: xx-large;
+}
+p:first-letter{
+    font-size: 200%;
+    color:blue;
+}
+h2:after{
+    
+}

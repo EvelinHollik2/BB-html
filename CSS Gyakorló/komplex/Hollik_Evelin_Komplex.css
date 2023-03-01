@@ -1,0 +1,63 @@
+body{
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    background-color: #000000;
+}
+div{
+    text-align: center;
+}
+table{
+    border: 0px;
+    width: 900px;
+    border-spacing: 0px;
+    padding: 0px;
+}
+img{
+    border: 0px;
+    width: 215;
+    height: 151;
+    margin-left: 10px;
+}
+.l{
+    text-align: left;
+}
+.table{
+    border: 0px;
+    width: 600px;
+    border-spacing: 0px;
+    padding: 20px;
+    height: 76px;
+}
+.menupont{
+    text-align: center;
+}
+.td{
+    background-color: #FFFFFF;
+}
+.t{
+    width: 700px;
+    text-align: center;
+}
+.w{
+    width:350px;
+}
+.img{
+    border: 0px;
+    width: 260;
+    height: 190;
+    text-align: right;
+}
+.cim{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+.ttd{
+    width: 350px;
+    text-align: left;
+}
+.also{
+    text-align: center;
+}

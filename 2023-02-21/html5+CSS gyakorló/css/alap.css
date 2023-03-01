@@ -1,0 +1,109 @@
+/* egyedi betûtípus */ 
+ @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+ 
+ 
+/* html elem tulajdonságai */
+html {
+	background-color:darkgray;
+}
+
+/* oldal tulajdonságai */
+ body {
+	
+	/*Feladat: a betûtípus legyen Arial, Verdana, talpnélküli betûtípus */
+		
+	background-color:white;
+	width:80%;
+	padding:20px; 
+	margin:20px auto;
+	border:2px solid black;
+	border-radius:20px;
+}
+
+
+/* címsorok beállítása */
+h1,h2,h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1 {
+	/*Feladat: legyen a betûméret háromszoros, kiskapitális, középre igazított, betûk távolsága pedig 2 képpont, a szövegárnyék pedig 5 képpont, 3 képpontos elmosással, világosszürke színnel */
+	
+	
+	}
+h2 {
+	/*Feladat: legyen a betûméret kétszeres */
+	
+}
+
+h3 {
+	
+	/*Feladat: legyen 1,5-es betûméret, a behúzás pedig kétszeres */
+	
+}
+
+/* egyéb beállítások */
+figcaption {
+	
+	/*Feladat: legyen középre igazítva és félkövér*/
+	
+}
+
+p {
+	
+	/*Feladat: legyen sorkizárt, és 1,5-es a sormagasság */
+	
+}
+
+q {/*Feladat: legyen dõlt */}
+
+img,video {width:90%; height:auto;}
+
+div#bevezeto  {
+padding:20px;
+background-color:lightyellow;
+margin:10px;
+border:1px dotted gray;
+}
+
+/* táblázat beállításai */
+
+table {border-collapse:collapse;}
+th {/*Feladat: legyen balra igazítva */}
+table {width:300px;}
+th,td {border:1px solid gray}
+
+
+/* szerkezeti elemek */
+aside {
+	float:right;
+	margin:10px;
+	background-color:lightgray;
+}
+
+footer p, nav#fomenu  {
+	/*Feladat: legyen középre igazítva */
+}
+
+
+pre {
+background-color:black;
+color:white;
+overflow:auto;
+}
+
+hr {
+	border:0;
+	border-bottom:1px dotted gray;
+}
+
+/* ûrlap */
+
+fieldset {
+	background-color: lightyellow;
+}
+
+fieldset {
+	border-radius: 10px;
+}
+

@@ -1,0 +1,30 @@
+body {
+	font-size:90%;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:black;
+	color:white;
+}
+a:link {
+	color:yellow 
+}
+a:visited {
+	color:#ff9900 
+}
+a:hover {
+	color:white
+}
+p:first-letter {
+	font-size:200%
+}
+p:first-line {
+	font-style:italic
+}
+::selection {
+	background-color:yellow; 
+	color: black;
+}
+p.fontos:before {
+	content: "Fontos:"; 
+	display:block; 
+	color:red;
+}
