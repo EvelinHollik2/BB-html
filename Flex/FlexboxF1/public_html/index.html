@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+    <head>
+        <title>FLEXNAV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <link href="flexnav.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                FlexBox Menü Példa
+            </header>
+            <nav>
+                <a href="#" class="toggleNav">☰ Menü</a>
+                <ul>
+                    <li><a href="#" >Menü-1</a></li>
+                    <li><a href="#" >Menü-2</a></li>
+                    <li><a href="#" >Menü-3</a></li>
+                    <li><a href="#" >Menü-4</a></li>
+                    <li><a href="#" >Menü-5</a></li>
+                    <li><a href="#" >Menü-6</a></li>
+                    <li class="logo"><a href="#" ><i class="fab fa-twitter"></i></a></li>
+                    <li class="logo"><a href="#" ><i class="fab fa-facebook"></i></a></li>
+                    <li class="logo"><a href="#" ><i class="fab fa-github"></i></a></li>
+                    <li class="logo"><a href="#" ><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+            <main>
+                <section class="kep">
+                    <img src="https://picsum.photos/seed/picsum/300/300">
+                </section>
+
+                <section class="reszletek">
+                    <p>Egy egyszerű videotanfolyam, amely segít a FlexBox elsajátításában.</p>
+                    <p>Regisztráljon még ma, hogy megkapja az összes videót és gyakorlatot!</p>
+                </section>
+
+                <section class="login">
+                    <form action="" method="POST" >
+                        <input type="text" placeholder="Név">
+                        <input type="email" placeholder="Email cím">
+                        <input type="submit" value="Regisztráció!">
+                    </form>
+                </section>
+
+            </main>
+
+
+
+            <footer>
+                &COPY; Teszt Elek
+            </footer>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+
+            $(function () {
+                $('.toggleNav').on('click', function () {
+                    $('nav ul').toggleClass('open');
+                });
+            });
+
+
+
+        </script>
+    </body>
+</html>
