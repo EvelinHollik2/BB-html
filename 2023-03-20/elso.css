@@ -1,20 +1,13 @@
-
 html{
     box-sizing:  border-box;
 }
-
 *, *:before, *:after{
     box-sizing: inherit;
 }
-
-
 body{
-    background-color:   #3399ff;
-    font-family: sans-serif;
-    margin: 0;
+    background-color: rgb(128, 235, 239);
+    color: black;
 }
-
-
 section, header, footer{
     background:rgba(0,0,0,0.2);
     font-size: 2em;
@@ -23,12 +16,9 @@ section, header, footer{
     padding: 20px;
     margin: 20px 0;
 }
-
 section{
     font-size: 1em;
 }
-
-
 a{
     color: white;
     text-decoration: none;
@@ -38,26 +28,14 @@ a{
     text-align: center;
 
 }
-
-
 a:hover{
     background:rgba(0,0,0,0.3);
     text-shadow: 2px 2px 1px black;
 }
-
-
 .container{
     max-width: 992px;
     margin: 0 auto;
 }
-
-
-input{
-    border: 0;
-    padding: 10px;
-}
-
-
 nav ul{
     display: flex;
     list-style: none;
@@ -66,50 +44,43 @@ nav ul{
     border:1px solid gray;
     background:rgba(0,0,0,0.2);
 }
-
 nav li{
     flex: 3;
 }
-
-nav .logo{
-    flex: 1;
-}
-
 .toggleNav {
     display: none;
 }
-
-
-@media all and (max-width:992px){
-    nav ul{
-        flex-wrap: wrap;
-    }
-    nav li{
-        flex: 1 1 50%;
-    }
-    nav li .logo{
-        flex: 1 1 25%;
-    }
+img{
+    border: 1px solid black;
+    padding:10px;
+    background-color:white;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
-
-@media all and (max-width:600px){
-    nav li{
-        flex-basis:100%;
-    }
-    .container{
-        display: flex;
-        flex-direction: column;
-    }
-    nav{
-        order: -1;
-    }
-    .toggleNav {
-        display: block;
-    }
-    nav ul{
-        display: none;
-    }
-    nav ul.open {
-        display: flex;
-    }
+#fotok{
+    background-color:beige;
+    border:1px solid black;
+    width: 500px;
+    height: 260px; 
+    margin:0 auto;
+    margin-top:75px;
+    padding-left: 50px;
+    position:relative;
+    
+}
+div#fotok a:nth-child(3n+1) img{
+    position:absolute;
+    left:20px;
+    top:40px;
+    transform:rotate(4deg); 
+}
+div#fotok a:nth-child(3n+2) img {
+    position:absolute;
+    left:200px;
+    top:80px;
+    transform:rotate(-7deg);  
+}
+div#fotok a:nth-child(3n) img {
+    position:absolute;
+    left:350px;
+    top:40px;  
 }

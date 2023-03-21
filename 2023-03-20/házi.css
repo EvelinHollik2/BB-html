@@ -1,0 +1,190 @@
+body{
+    background-color: cyan;
+    color: black;
+}
+img{
+    border: 1px solid black;
+    padding:10px;
+    background-color:white;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+#fotok{
+    background-color:beige;
+    border:1px solid black;
+    width: 500px;
+    height: 260px; 
+    margin:0 auto;
+    margin-top:75px;
+    padding-left: 50px;
+    position:relative;
+    
+}
+div#fotok a:nth-child(3n+1) img{
+    position:absolute;
+    left:20px;
+    top:40px;
+    transform:rotate(4deg); 
+}
+div#fotok a:nth-child(3n+2) img {
+    position:absolute;
+    left:200px;
+    top:80px;
+    transform:rotate(-7deg);  
+}
+div#fotok a:nth-child(3n) img {
+    position:absolute;
+    left:350px;
+    top:40px;  
+}
+/*első*/
+html{
+    box-sizing:  border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    background-color: rgb(128, 235, 239);
+    color: black;
+}
+section, header, footer{
+    background:rgba(0,0,0,0.2);
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+section{
+    font-size: 1em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 5px;
+    width: 100%;
+    text-align: center;
+
+}
+a:hover{
+    background:rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 1px black;
+}
+.container{
+    max-width: 992px;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border:1px solid gray;
+    background:rgba(0,0,0,0.2);
+}
+nav li{
+    flex: 3;
+}
+.toggleNav {
+    display: none;
+}
+img{
+    border: 1px solid black;
+    padding:10px;
+    background-color:white;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    max-width: 40%;
+    height: 40%;
+}
+#fotok{
+    background-color:beige;
+    border:1px solid black;
+    width: 500px;
+    height: 260px; 
+    margin:0 auto;
+    margin-top:75px;
+    padding-left: 50px;
+    position:relative;
+    
+}
+div#fotok a:nth-child(3n+1) img{
+    position:absolute;
+    left:20px;
+    top:40px;
+    transform:rotate(4deg); 
+}
+div#fotok a:nth-child(3n+2) img {
+    position:absolute;
+    left:200px;
+    top:80px;
+    transform:rotate(-7deg);  
+}
+div#fotok a:nth-child(3n) img {
+    position:absolute;
+    left:350px;
+    top:40px;  
+}
+/*második*/
+#button {
+    position:relative;
+    width:80px;
+    height:18px;
+    background-color: #5b72a9;
+    border: 1px solid #999;
+    border-color:#8b9dc3 #2f477a #29447e #1a356e;
+    
+    cursor:pointer;
+    font-size:11px;
+    font-weight:bold;
+    text-align:center;
+    color:#fff;
+  }
+/*harmadik*/
+.mezo{
+    padding: 5px 0;
+}
+legend{
+    background-color:blanchedalmond;
+    border: black solid thin;
+    border-radius: 5px;
+    padding: 4px;
+}
+fieldset{
+    background-color: beige;
+    border-radius: 20px 0;
+}
+.card{
+    width: 100% ;
+    min-height: 300px;
+    max-height: 300px;
+    border:  blue solid thin;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px auto;
+    overflow: auto ;
+}
+
+@media screen and ( min-width: 600px){
+    .card{
+        width: 40%;
+        border:  blue solid thin;
+        border-radius: 5px;
+        text-align: center;
+        margin: 15px;
+        display: inline-block;
+    }
+}
+
+@media screen and ( min-width: 992px){
+    .card{
+        width: 100%;
+        border:  blue solid thin;
+        border-radius: 5px;
+        text-align: center;
+        margin: 10px;
+        display: inline-block;
+    }
+}
+/*negyedik*/

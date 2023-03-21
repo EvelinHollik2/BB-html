@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="házi.css">
+    <title>Kezdőlap</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" class="toggleNav">☰ Menü</a>
+            <ul>
+                <li><a href="elso.html">Kezdőlap</a></li>
+                <li><a href="masodik.html">Magamról</a></li>
+                <li><a href="negyedik.html">Hobby</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="kep">
+                <a href="Family.jpg" target="_blank"><img src="Family.jpg" alt="családi kép" width="150" height="114"></a>
+                <a href="me.png" target="_blank"><img src="me.png" alt="én kép" width="150" height="114"></a>
+                <a href="mus.jpg" target="_blank"><img src="mus.jpg" alt="music" width="150" height="114"></a>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+
+        $(function () {
+            $('.toggleNav').on('click', function () {
+                $('nav ul').toggleClass('open');
+            });
+        });
+    </script>    
+</body>
+</html>
