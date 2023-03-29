@@ -1,0 +1,32 @@
+.grid-container{
+    font-family: avenir, sans-serif;
+    font-weight: bold;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1frl);
+    grid-template-rows: repeat(4, minmax(0,1frl));
+    grid-template-areas: 
+    "header header header header"
+    "side-nav main main main"
+    "side-nav main main main"
+    "footer footer footer footer";
+}
+.grid-item{
+    padding:  10px 20px;
+}
+.grid-item:nth-child(1){
+    background-color: darkcyan;
+    grid-area: header;
+}
+.grid-item:nth-child(2){
+    background-color: turquoise;
+    grid-area: side-nav;
+}
+.grid-item:nth-child(3){
+    background-color: aquamarine;
+    grid-area: main;
+}
+.grid-item:nth-child(4){
+    background-color: lightgreen;
+    grid-area: footer;
+}
