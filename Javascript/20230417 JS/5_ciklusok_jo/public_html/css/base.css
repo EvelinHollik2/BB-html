@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+@charset "UTF-8";
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+ul{
+    list-style-type: none; 
+}
+
+
+div{
+    display: inline-block;
+    width: 100%;
+    
+
+}
+input[name="btnFuttat"] {
+    display: block;
+}
+textarea{
+    width: 95%;
+    min-height: 200px;
+    font-family: monospace;
+}
+
+.eredmeny{
+    width: 100%;
+    border:  lightgrey solid thin;
+}
+
+

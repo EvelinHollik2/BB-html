@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>Ciklusok</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/base.css" rel="stylesheet" type="text/css"/>
+        <script src="scripts/base.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h4>1. lépés: Cíklus típus kiválasztása </h4>
+        <ul>
+            <li><input type="radio" name="radiogroup_1" id="radiobtn_1" value="while">
+                <label for="radiobtn_1"> While ciklus</label></li>
+            <li><input type="radio" name="radiogroup_1" id="radiobtn_2" value="do">
+                <label for="radiobtn_2"> Do...While ciklus</label></li>
+            <li>
+                <input type="radio" name="radiogroup_1" id="radiobtn_3" value="for">
+                <label for="radiobtn_3">For ciklus</label>
+            </li>
+        </ul>
+        <h4>2. lépés:  A ciklus paramétereinak megadása </h4>
+
+        <p><label for="kezdeti">Kezdő érték: i = </label>
+            <input type="text" name="kezdeti" id="kezdeti" value="0"></p>
+        <p><label for="feltetel">Ciklusfeltétel: i </label>
+            <select id="rel">
+                <option value="<="> &lt;=</option>
+                <option value="<"> &lt; </option>
+                <option value=">"> &gt; </option>
+                <option value=">="> &gt;= </option>
+            </select>
+            <input type="text" name="feltetel" id="feltetel" value="10">
+        </p>
+        <p><label for="lepeskoz">Lépésköz: i = i </label>
+            <select id="elojel">
+                <option value="+"> + </option>
+                <option value="-"> - </option>
+            </select>
+            <input type="text" name="lepeskoz" id="lepeskoz" value="1"></p>
+        <input type="button" value="Kód generálása" name="btnMutat" id="btnMutat" onclick="mutat()" />
+
+        <h4>3. Lépés: A javascript kód generálása</h4>
+        <textarea name="kod" id="kod" placeholder="kód" ></textarea>
+        <h4>4. Lépés: A javascript futatása:</h4>
+        <input type="button" value="Futtat" name="btnFuttat" onclick="futtat()" />
+        <div>
+            <h3>A kód futtatásának eredménye:</h3>
+            <div id="eredmeny" ></div>
+        </div>
+    </body>
+</html>

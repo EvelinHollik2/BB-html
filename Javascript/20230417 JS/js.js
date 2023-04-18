@@ -1,0 +1,7 @@
+function Kodgeneralas(){
+
+}
+
+function Futtat(){
+    
+}
