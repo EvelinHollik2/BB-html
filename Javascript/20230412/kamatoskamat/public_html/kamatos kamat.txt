@@ -1,0 +1,17 @@
+html:
+id-vel érjük el az értékeket majd a js-be
+érték adás: value, InnerHtml
+
+js:
+fügvénnyel meghívjuk a html részeket: function ....(){}
+változók: (var,) let, const
+érték kiiratás: console.log(..);
+    parseInt pontos
+    parseFloat levegőpontos
+    aminek van értéke azoknál használjuk
+
+innerHtml: kiírja a kódot
+outerHtml: teljes elemet tartalmazza
+token.toFixed(2) ketten számjegyig számol
+
+'' ezt kell használni

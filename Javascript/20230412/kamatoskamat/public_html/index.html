@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+    <head>
+        <title>Kamatos kamat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="kamatos.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="#">
+    </head>
+    <body>
+        <div id="elso">
+            <label for="toke">Tőke: </label>
+            <input type="text" id="toke" name="toke" value="128" />Ft
+        </div>
+        <div>
+            <label for="evek">Évek: </label>
+            <input type="text" id="evek" name="evek" value="10" />év
+        </div>
+        <div>
+            <label for="kamatmoin">Kamatláb(min): </label>
+            <input type="text" id="kamatmin" name="kamatmin" value="5" />%
+        </div>
+        <div>
+            <label for="kamatmax">Kamatláb(max): </label>
+            <input type="text" id="kamatmax" name="kamatmax" value="10" />%
+        </div>
+        <div>
+            <input type="button" value="Szamol" onclick="szamol()" />
+        </div>
+        <div id="eredmeny" ></div>
+
+        <script src="kamatos.js"></script>
+    </body>
+</html>
