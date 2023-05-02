@@ -62,3 +62,33 @@ function szamol() {
 
 //document.getElementById('elso').innerHTML = ""; //meg változtatjuk a div1-et
 //document.getElementById('elso').outerHTML = ""; //meg változtatjuk a div1-et
+
+let beviteli = document.getElementsByTagName('input');
+console.log(beviteli);
+for (let i = 0; i < beviteli + 1; i++) 
+{
+    beviteli[1].value = i;
+}
+console.log(beviteli[0].className);
+
+let urlapelemek = document.getElementsByClassName('urlap');
+console.log(urlapelemek);
+urlapelemek[0].style.backgroundColor = 'pink';
+urlapelemek[2].style.backgroundColor = 'pink';
+
+let elemek = document.getElementsByTagName('td');
+
+
+
+let newdiv = document.createElement('div');
+elemek.appendChild(newdiv);
+
+let felsorol= document.createElement('ul');
+newdiv.appendChild(felsorol);
+
+for(var i = 0; i<6; i++);{
+    let elem = document.createElement('li');
+    let elemszoveg= document.createTextNode('s' + i);
+    elem.innerText = 'elem' + i;
+    felsorol.appendChild('elem');    
+}
