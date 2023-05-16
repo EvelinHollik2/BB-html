@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="hsl(185, 23%, 41%)">
+
+
+<main><style type="text/css">
+main img {
+    max-width: 100%;
+}
+main ul p, main ol p {
+  display: block;
+}
+</style>
+<h1 id="1.-gyakorlat-%E2%80%93-webprogramoz%C3%A1s">1. gyakorlat – Webprogramozás</h1>
+<p>Oldd meg az alábbi feladatokat JavaScript segítségével.</p>
+<p>A feladatok megoldását külön függvényként készítsd el, ahol a 
+bemeneti adatokat paraméterként, a kimenetieket visszatérési értékként 
+szerepelnek.</p>
+<p>A feladatok úgy oldd meg, hogy a bemeneti adatokat adottnak tekintjük, a kiírást pedig első körben a konzolra kell elvégezni a <code>console.log()</code> parancs segítségével.</p>
+<h2 id="feladatok">Feladatok</h2>
+<h3 id="elemi-feladatok">Elemi feladatok</h3>
+<ol>
+<li>
+<p>Írd ki a konzolra, hogy "Hello világ!"</p>
+</li>
+<li>
+<p>Készítsd el a Fahrenheitből Celsius fokba átalakító függvényt!</p>
+</li>
+<li>
+<p>Készíts egy százalékszámító függvényt! Adott a szám, és az is, hogy hány százalékára vagy kíváncsi. Az eredményt írd ki!</p>
+</li>
+<li>
+<p>Olvass be három számot, és döntsd el, hogy alkothatják-e egy háromszög oldalát!</p>
+</li>
+<li>
+<p>Adott két egész szám, <code>a</code> és <code>b</code>. Írj függvény, amely eldönti, hogy <code>b</code> osztója-e <code>a</code>-nak!</p>
+</li>
+<li>
+<p>Adott egy pont a síkon. Írj függvényt, amely megmondja, hogy a pont melyik síknegyedbe esik!</p>
+</li>
+<li>
+<p>Adott két szám. Írj függvényt, amely visszaadja legnagyobb közös osztójukat!</p>
+<pre><code>Függvény lnko(a, b: Egész): Egész 
+    Ha a &lt; b akkor csere(a, b)
+    maradek = a mod b
+    Ciklus amíg maradek &gt; 0
+        a := b
+        b := maradek
+        maradek := a mod b
+    Ciklus vége
+    lnko := b
+Függvény vége
+</code></pre>
+</li>
+<li>
+<p>Adott két szám. Írj függvényt, amely visszaadja legkisebb közös többszörösüket!</p>
+<pre><code>Függvény lkkt(a, b: Egész): Egész 
+    x, y := a, b
+    Ciklus amíg x ≠ y
+        Elágazás
+            x &lt; y esetén x := x + a
+            x &gt; y esetén y := y + b
+    Ciklus vége
+    lkkt := x
+Függvény vége
+</code></pre>
+</li>
+<li>
+<p>Írj függvényt, ami visszaadja egy egész szám faktoriálisát!</p>
+</li>
+<li>
+<p>Adott a és b egész szám. Osztás művelete nélkül add meg a-nak b-vel való osztásakor keletkező maradékot.</p>
+</li>
+</ol>
+<h3 id="programoz%C3%A1si-t%C3%A9telek">Programozási tételek</h3>
+<ol start="11">
+<li>
+<p>Egy számsorozatban keress meg egy negatív számot.</p>
+</li>
+<li>
+<p>Számold meg, hány páros szám van egy számokat tartalmazó tömbben!</p>
+</li>
+<li>
+<p>Válogasd ki azokat a számokat, amelyek mindkét szomszédjuktól egy előre bekért értéken belül térnek el.</p>
+</li>
+<li>
+<p>Adott egy neveket tartalmazó tömb, válogasd ki azokat, amelyek</p>
+<p>a. egy előre bekért részszöveget tartalmaznak!</p>
+<p>b. egy előre bekért részszöveggel kezdődnek!</p>
+</li>
+<li>
+<p>Írj függvényt, amely megadja egy egész szám prímtényezős felbontását!</p>
+</li>
+<li>
+<p>Döntsd el egy mátrxiról, hogy minden eleme páros-e!</p>
+</li>
+<li>
+<p>Határozd meg egy mátrixban, hogy hány olyan sora van, amely nem tartalmaz 0 értéket!</p>
+</li>
+<li>
+<p>Válogasd ki egy mátrixból a negatív számokat!</p>
+</li>
+</ol>
+<h3 id="adatszerkezetek-%C3%A9s-programoz%C3%A1si-t%C3%A9telek">Adatszerkezetek és programozási tételek</h3>
+<ol start="19">
+<li>
+<p>Adott egy matematikai kifejezés, ami <code>(</code>, <code>[</code> és <code>{</code>
+ zárójeleket is használ. Döntsd el egy verem segítségével, hogy helyes-e
+ a zárójelezés! A vermet az alábbi módokon valósítsd meg:</p>
+<ul>
+<li>sima tömb használatával (<code>push</code>, <code>pop</code>);</li>
+<li>egy objektumba szervezve a veremhez kapcsolódó adatszerkezetet és metódusokat;</li>
+<li>osztályba szervezve ugyanezeket!</li>
+</ul>
+</li>
+<li>
+<p>Készíts egy sor osztályt, ami a megfelelő tömbműveleteket használja (pl. <code>push</code>-<code>shift</code> vagy <code>unshift</code>-<code>pop</code>)!</p>
+</li>
+<li>
+<p>Egy űrlap adatainak ellenőrzése során számos hiba lehet. Készítsd el 
+azt az adatszerkezetet, amelyekben a hibákat tárolod, és töltsd fel 
+példaadatokkal. Listázd ki a hibákat a konzolra!</p>
+</li>
+<li>
+<p>Készíts egy olyan adatszerkezetet, amely egy könyv adatait írja le. A könyvnél a következő adatokat tároljuk:</p>
+<ul>
+<li>szerző</li>
+<li>cím</li>
+<li>kiadás éve</li>
+<li>kiadó</li>
+<li>ISBN szám</li>
+</ul>
+</li>
+<li>
+<p>Készítsd el egy bevásárlólistának megfelelő adatszerkezetet, akkor ha a bevásárlólista</p>
+<p>a. csak a termékek nevét tartalmazza;</p>
+<p>b. a termékek neve mellett a vásárolandó mennyiséget is tárolja.</p>
+<p>Az így elkészült listákat írasd ki a konzolra!</p>
+</li>
+<li>
+<p>Készítsd el egy raktárnyilvántartás modelljét! A nyilvántartásban az alábbi adatokat tároljuk egy termékről:</p>
+<ul>
+<li>a termék neve</li>
+<li>gyártó</li>
+<li>cikkszám</li>
+<li>egységár</li>
+<li>darabszám</li>
+</ul>
+<p>Vegyél fel néhány példát az adatszerkezetbe, és oldd meg a következő 
+feladatokat. Minden feladatot külön függvény végezzen, amely 
+paraméterként kapja meg az aktuális raktárnyilvántartást.</p>
+<p>a. Listázd ki a konzolra a termékek nevét!</p>
+<p>b. Állíts elő egy olyan szöveget, amely a termékek nevét HTML felsorolásként adja meg!</p>
+<p>c. Állíts elő egy olyan szöveget, amely a raktárnyilvántartást táblázatos formában jelenítené meg, ha az egy HTML oldalon lenne!</p>
+<p>d. Add meg, hogy mekkora érték van összesen raktáron!</p>
+<p>e. Keress meg egy adott cikkszámú terméket, és ha megvan, akkor add vissza!</p>
+<p>f. Add meg, melyik termékből van a legkevesebb raktáron!</p>
+<p>g. Add meg egy adott gyártó termékeit!</p>
+<p>h. Számold meg, hány különböző gyártó terméke van a raktárban!</p>
+</li>
+<li>
+<p>Írj egy olyan függvényt, amely paraméterül megkap egy objektumot, és megnézi, hogy az adott objektumnak van-e <code>id</code> nevű mezője. Ha nincsen, akkor kiegészíti az objektumot ezzel, és visszaadja a hívó programnak.</p>
+</li>
+<li>
+<p>Készítsd el egy angol-magyar szótár adatszerkezetét és töltsd fel 
+példaadatokkal! Írj függényt, amely egy magyar szónak megadja az angol 
+megfelelőjét! Írd meg a másik irányú fordítást elvégző függvényt is!</p>
+</li>
+<li>
+<p>Filmekről szeretnénk adatokat tárolni:</p>
+<ul>
+<li>film címét,</li>
+<li>film hosszát,</li>
+<li>film kategóriáit (akár több kategóriába is tartozhat egy film),</li>
+<li>gyártási évét,</li>
+<li>rendezőit (mert lehet, hogy többen vannak),</li>
+<li>szereplőit olyan formában, hogy melyik szerepet ki játszotta.</li>
+</ul>
+<p>Készítsd el a megfelelő adatszerkezetet, és töltsd fel néhány példaadattal! Oldd meg a következő feladatokat külön függvényként!</p>
+<p>a. Listázd ki a nyilvántartásban lévő filmeket!</p>
+<p>b. Add meg azokat a filmeket, amelyeknek több rendezője is van!</p>
+<p>c. Add meg a nyilvántartásban szereplő leghosszabb film címét!</p>
+<p>d. Add meg azokat a filmeket, amelyekben egy paraméterként megkapott színész játszik!</p>
+</li>
+<li>
+<p>Egy adott időszakban minden nap megmértük a Balaton vizének 
+hőmérsékletét, és egy sorozatban tároltuk el. Külön-külön függvénnyel 
+oldd meg a következő feladatokat!</p>
+<p>a. Mennyi volt a vizsgált időszakban a víz átlaghőmérséklete?</p>
+<p>b. Hányszor mértünk 26 Celsius fok feletti hőmérsékletet?</p>
+<p>c. Melyik volt a legnagyobb mért hőmérséklet-érték?</p>
+<p>d. Hányadik napon volt a leghidegebb a víz?</p>
+<p>e. Melyik nap volt a víz pontosan 23 fokos?</p>
+<p>f. Előfordult, hogy két egymást követő nap a víz hőmérséklete 3 fokot is változott?</p>
+<p>g. Hány napból állt az a leghosszabb időszak, amikor a víz 25 fok felett volt?</p>
+</li>
+</ol>
+</main>
+
+</body></html>

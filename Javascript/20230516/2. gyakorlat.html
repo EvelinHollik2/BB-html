@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="hsl(185, 23%, 41%)">
+
+
+</head><body>
+
+<main><style type="text/css">
+main img {
+    max-width: 100%;
+}
+main ul p, main ol p {
+  display: block;
+}
+</style>
+<h1 id="2.-gyakorlat-%E2%80%93-webprogramoz%C3%A1s">2. gyakorlat – Webprogramozás</h1>
+<h2 id="feladatok">Feladatok</h2>
+<ol>
+<li>
+<p>Írd ki, hogy "Helló világ!" különböző módokon!</p>
+<p>a. konzolra</p>
+<p>b. felugró ablakkal</p>
+<p>c. magába a dokumentumba</p>
+</li>
+<li>
+<p>Kérj be egy számot, és annyiszor írd ki egymás alá egyre növekvő 
+betűméretekkel a "Hello világ!" szöveget! (szöveges beviteli mező, gomb)</p>
+</li>
+<li>
+<p>Kérj be egy N számot, és készíts azzal egy NxN-es szorzótáblát!</p>
+</li>
+<li>
+<p>Írj egy kör kerületét kiszámoló programot!</p>
+</li>
+<li>
+<p>Egy szöveges beviteli mezőben legyen lehetőség megadni egy interneten
+ elérhető kép URL-jét. Egy mellette lévő gombra kattintva jelenítsd meg a
+ képet a dokumentumban!</p>
+</li>
+<li>
+<p>Másolás</p>
+<p>a. Adott két szöveges beviteli mező és köztük egy gomb. A gomb 
+lenyomására másold át az egyik szöveges beviteli mező tartalmát a 
+másikba!</p>
+<p>b. Általánosítsd a feladatot N db szöveges beviteli mezőre! Ha kell, akkor definiáld a megfelelő adatszerkezetet hozzá!</p>
+</li>
+<li>
+<p>Oldalbetöltéskor egy űrlapon csak akkor kérd be a leánykori nevet, ha nő az illető!</p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nem<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ferfi<span class="token punctuation">"</span></span> <span class="token attr-name">checked</span><span class="token punctuation">&gt;</span></span> férfi
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>nem<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>no<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> nő
+Leánykori név: <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>leanykori_nev<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+</li>
+<li>
+<p>Oldalbetöltéskor listázd ki az oldal összes hiperhivatkozásának a címét!</p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.elte.hu<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>ELTE<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://webprogramozas.inf.elte.hu<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Webprogramozás az ELTÉn<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.inf.elte.hu<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>ELTE Informatikai Kara<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>hivatkozasok<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+</li>
+<li>
+<p>Oldalbetöltéskor készíts tartalomjegyzéket az oldalon található <code>h1</code>, <code>h2</code>, <code>h3</code>, stb. elemek alapján.</p>
+</li>
+<li>
+<p>Készíts egy számlálót komponenst!</p>
+<p>a. A számláló egy csak olvasható szöveges beviteli mezőből és két 
+gombból (plusz, mínusz) áll! A gombok meg nyomásával a szöveges beviteli
+ mezőben lévő szám eggyel nő vagy csökken.</p>
+<p>b. Definiálj a szkriptben egy minimum és egy maximum értéket! Ha a 
+számláló eléri valamelyik értéket, akkor a megfelelő gomb ne legyen 
+elérhető!</p>
+<p>c. *Ha a gombot hosszan nyomjuk le, akkor a számláló automatikusan kezdje el az értéket változtatni.</p>
+</li>
+<li>
+<p>Adott egy három oszlopból álló táblázat! A táblázat felett 3 szöveges
+ beviteli mezővel és egy gombbal. A gombra kattintva a 3 beviteli mező 
+értéke új sorként szúródjon be a táblázatba.</p>
+</li>
+<li>
+<p>Készíts webes alkalmazást kamatos kamat számolására. A számoláshoz 
+meg kell adni a kiindulási összeget, a kamat értékét, valamint azt, hány
+ évvel későbbi összegre vagyunk kíváncsiak. A feladat során jelenítsük 
+meg azt is, hogy melyik évben hogyan változik az összeg.</p>
+</li>
+<li>
+<p>Gondoljon a gép egy számra! A mi feladatunk, hogy kitaláljuk. Legyen 
+lehetőség tippelni a számra, a gép pedig annyit válaszoljon, hogy az 
+általa gondolt szám kisebb-e vagy nagyobb az általunk tippeltnél.</p>
+</li>
+<li>
+<p>Adott egy könyvtári nyilvántartás. Egy könyvről a következő adatokat tároljuk:</p>
+<ul>
+<li>szerző</li>
+<li>cím</li>
+<li>kiadás éve</li>
+<li>kiadó</li>
+<li>ISBN szám</li>
+</ul>
+<p>a. Felületen kérj be egy évszámot, és listázd ki az abban az évben megjelent könyvcímeket!</p>
+<p>b. Készíts egy legördülő mezőt, amelyben az egyes kiadók vannak 
+felsorolva. Egy gombra kattintva táblázatos formában jelenítsd meg a 
+kiválasztott kiadóhoz tartozó könyveket!</p>
+ <!-- c. Egy beviteli mezőben gépelve folyamatosan frissíts egy listát, melyben azok a szerzők jelennek meg, kiknek neve tartalmazza a beviteli mezőbe beírt szövegrészletet! -->
+</li>
+</ol>
+</main>
+
+</body></html>
