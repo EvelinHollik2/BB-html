@@ -12,6 +12,6 @@ változók: (var,) let, const
 
 innerHtml: kiírja a kódot
 outerHtml: teljes elemet tartalmazza
-token.toFixed(2) ketten számjegyig számol
+token.toFixed(2) kettes számjegyig számol
 
 '' ezt kell használni
