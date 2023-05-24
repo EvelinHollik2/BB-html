@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+}
+
+table{
+    background-color:   #fcead7;
+    border: #f3c18f solid thin;
+    padding: 0.1em;
+    margin: 1rem;
+}
+
+td{
+    border:  blue solid thin;
+    padding: 5px;
+}
+
+hr{
+    width: 100%;
+    padding:3px;
+    background-color:lightblue;
+}
+
+#hossza{
+    color: red;
+}
+
+button{
+    border-radius: 10px;
+    border: black;
+}
+
+#gomb{
+    opacity: 0.4;
+    cursor: not-allowed;
+}
